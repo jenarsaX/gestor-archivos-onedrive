@@ -1,0 +1,225 @@
+
+.file-list li img {
+    width: 40px; /* Ajusta el tamaño del icono según tus necesidades */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Estilos generales para el formulario de búsqueda */
+.search-container {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.search-form button i {
+    margin-right: 5px;
+}
+
+/* Estilos para la lista de archivos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.file {
+    background-color: #f9f9f9;
+}
+
+.folder {
+    background-color: #e9f5f9;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los iconos */
+li i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+
+/* Estilos generales para la lista de archivos */
+.file-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; /* Opcional: centra los elementos en la línea */
+}
+
+.file-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.file-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.file-list li:hover {
+    background-color: #e9f5f9;
+}
+
+.file-list .folder {
+    background-color: #e9f5f9;
+}
+
+.file-list .file {
+    background-color: #f9f9f9;
+}
+
+.file-list .download-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.file-list .download-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los iconos */
+.file-list li i {
+    margin-right: 10px;
+    font-size: 1.5em; /* Ajusta el tamaño de los iconos */
+    color: #333;
+}
+
+/* Estilos para la navegación */
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.nav-link {
+    margin: 0 15px; /* Espaciado entre enlaces */
+    padding: 10px 15px;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.nav-link:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+/* Ajustes para centrar el contenido */
+body {
+    text-align: center; /* Centrar el texto */
+}
+
+.file-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos */
+}
+
+/* Otros estilos existentes para .file-list y ul pueden mantenerse */
+
+
+
+.logout-form {
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.logout-button {
+    background-color: #007bff; /* Color rojo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    justify-content: left;
+
+    }
+
+.logout-button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
